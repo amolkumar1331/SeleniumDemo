@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="com.listeners.ListenExample"></listener>
+	</listeners>
+	
+	
+	<test thread-count="5" name="Test">
+		<!-- <groups> <run> <exclude name = "Regression" /> </run> </groups> -->
+
+		<classes>
+			<class name="com.testng.Test6">
+				<methods>
+					<include name="m1" />
+					<include name="m2" />
+				</methods>
+
+			</class>
+			<class name="com.testng.Test7" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

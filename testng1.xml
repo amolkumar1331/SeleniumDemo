@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">  <!-- BS   Test 1-->
+
+  <test thread-count="5" name="LOginTest">   <!-- BT- Test1 -->
+    <classes>
+       <class name="com.testng.Test1"/>  <!-- BC BM Login AM AC -->
+      <class name="com.testng.Test2"/>     <!--  registrtionTest -->
+    </classes>
+  </test> <!--    AT - TEST1 -->
+  
+  <test thread-count="5" name="RegistrationTest" >  
+    <classes>
+      <class name="com.testng.Test3"/>  <!--  BC M1  -->
+      <class name="com.testng.Test4"/>  <!-- m1 -->
+      </classes>
+  </test>   <!--  AT --Test4 -->
+  
+</suite>  <!--  AS -  TEst1 -->

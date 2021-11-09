@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">   <!-- test1  BS -->
+
+  <test thread-count="5" name="Test">  <!-- test1 BT  -->
+    <classes>
+        
+       <class name="com.testng.Test1"/> 
+           <class name="com.testng.Test2"/> <!-- registrtionTest -->
+     
+    </classes>
+  </test>  <!-- AT - test1 -->
+  
+</suite>   <!--  AS = Test1 -->

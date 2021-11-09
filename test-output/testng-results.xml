@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70733" started-at="2021-10-22T15:31:51Z" finished-at="2021-10-22T15:33:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="70733" started-at="2021-10-22T15:31:51Z" finished-at="2021-10-22T15:33:02Z">
+      <class name="com.test1.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test1.Test2@6093dd95]" name="launchBrowser" is-config="true" duration-ms="20120" started-at="2021-10-22T21:01:31Z" finished-at="2021-10-22T21:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.Test2@6093dd95]" name="register" duration-ms="23818" started-at="2021-10-22T21:01:51Z" data-provider="Testdata" finished-at="2021-10-22T21:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nilesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jadhav  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sangli ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ nilam@123 ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8483859366]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cricket]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ english ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ skill ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ india ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ 1995 ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ november ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ 26]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ mail ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ mail ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.Test2@6093dd95]" name="register" duration-ms="23194" started-at="2021-10-22T21:02:15Z" data-provider="Testdata" finished-at="2021-10-22T21:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyush]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jadhav  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sangli ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ nilam@122 ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8483859364]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cricket]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ english ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ skill ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ india ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ 1994 ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ dcember ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ 26]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ xyz ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test1.Test2@6093dd95]" name="register" duration-ms="23677" started-at="2021-10-22T21:02:38Z" data-provider="Testdata" finished-at="2021-10-22T21:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[patil  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ nilam@123 ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8483859366]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cricket]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ english ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ skill ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ india ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ 1995 ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ november ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ 26]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ Femail ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ Femail ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- com.test1.Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
